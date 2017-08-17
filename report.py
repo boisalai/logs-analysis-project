@@ -107,7 +107,7 @@ class Report():
 
     def run(self):
         """Main method that launches all queries."""
-        
+
         # Open a new file in write mode to write the report.
         self.__report = open(PATH, 'w')
 
