@@ -48,7 +48,7 @@ Install the version for your operating system.
 
 Now you need to configure the virtual machine and, for this, a configuration file already exists. 
 
-Clone the repository https://github.com/boisalai/logs-analysis-project. 
+Clone the repository https://github.com/udacity/fullstack-nanodegree-vm. 
 
 Inside the cloned repository, you will find a directory called `/vagrant`. 
 From your terminal, change directory to the `/vagrant` directory.
