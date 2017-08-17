@@ -80,7 +80,7 @@ vagrant@vagrant:/vagrant$
 <a name="p1b"></a>
 ### Load the data to the database
 
-> These instructions to load the data to the database come from Udacity (Full Stack Web Developer Nanodegree, 3. The Backend: Database & Applications, Project: Logs Analysus Project
+> These instructions to load the data to the database come from Udacity (Full Stack Web Developer Nanodegree, 3. The Backend: Database & Applications, Project: Logs Analysus Project)
 
 Next, download the data <a target="_blank" href="https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip">here</a>. 
 You will need to unzip this file after downloading it. The file inside is called `newsdata.sql`. Put this file into the `/vagrant` directory, which is shared with your VM.
