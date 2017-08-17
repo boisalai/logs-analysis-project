@@ -1,5 +1,5 @@
 # Logs Analysis Project
-> Alain Boisvert, Québec, Canada, 2017-08-16 19:00 EDT.
+> Alain Boisvert, Québec, Canada, 2017-08-17 10:37 EDT.
 
 - [Summary](#p0)
 - [Instructions for running the program](#p1)
@@ -48,7 +48,8 @@ Install the version for your operating system.
 
 Now you need to configure the virtual machine and, for this, a configuration file already exists. 
 
-Clone the repository https://github.com/udacity/fullstack-nanodegree-vm. 
+Clone the repository https://github.com/boisalai/logs-analysis-project. 
+
 Inside the cloned repository, you will find a directory called `/vagrant`. 
 From your terminal, change directory to the `/vagrant` directory.
 Inside this subdirectory, run the command `$ vagrant up`. 
@@ -82,7 +83,7 @@ vagrant@vagrant:/vagrant$
 > These instructions to load the data to the database come from Udacity (Full Stack Web Developer Nanodegree, 3. The Backend: Database & Applications, Project: Logs Analysus Project
 
 Next, download the data <a target="_blank" href="https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip">here</a>. 
-You will need to unzip this file after downloading it. The file inside is called `newsdata.sql`. Put this file into the `\vagrant` directory, which is shared with your VM.
+You will need to unzip this file after downloading it. The file inside is called `newsdata.sql`. Put this file into the `/vagrant` directory, which is shared with your VM.
 
 To build the reporting tool, you'll need to load the site's data into your local database. To do this, use the command:
 
@@ -111,7 +112,7 @@ PATH = "/vagrant/report.txt"
 Then, run the Python file like this.
 
 ```
-vagrant@vagrant:/vagrant$ python3 report3.py 
+vagrant@vagrant:/vagrant$ python3 report.py 
 ```
 
 You should see traces of the execution in the terminal window.
@@ -145,7 +146,7 @@ July 17, 2016 - 2.3 errors
 Also, the terminal window should contain the following traces.
 
 ```
-vagrant@vagrant:/vagrant/project$ python3 report3.py 
+vagrant@vagrant:/vagrant/project$ python3 report.py 
 
 Connection was created successfully.
 
